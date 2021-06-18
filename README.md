@@ -22,4 +22,4 @@ When a cell in the Sheet is edited, the following operations are executed:
 
 A sample Sheet can be found here: https://tinyurl.com/56kxtf36
 
-If you copy/paste the script from [here](.), make sure to set an "OnEdit" trigger from the [App Script menu](https://developers.google.com/apps-script/guides/triggers/installable).
+If you copy/paste the script from [here](https://github.com/banderam/SheetsToSlackAlert/blob/main/sheetToSlack.gs), make sure to set an "OnEdit" trigger from the [App Script menu](https://developers.google.com/apps-script/guides/triggers/installable).
