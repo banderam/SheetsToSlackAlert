@@ -6,7 +6,7 @@ function onEdit(e){
   if (intCol == 3 && value < 0){                                // Check if column edited is Column C and if the value is <0
     var intRow = range.getRow();                                // Get the row number of the edited cell
     var sheet = SpreadsheetApp.getActiveSheet();
-    var dataRange = sheet.getRange(intRow, 4, 1, 1);            // Select columns D the same row as the edited cell
+    var dataRange = sheet.getRange(intRow, 4, 1, 1);            // Select a cell in columns D on same row as the edited cell
     var dataValue = dataRange.getValue();                       // Get the value of the referenced cell and store it. This is the alert's message
     
     // Iplementing Slack process
